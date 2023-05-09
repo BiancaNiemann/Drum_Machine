@@ -1,0 +1,50 @@
+.container{
+  background-color: #EEFC57;
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Tahoma;
+}
+
+.drum-pad-container{
+  background-color: #FCD757;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #DF9A57;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 20px;
+  padding: 20px
+}
+
+.drum-pad{
+  width: 60px;
+  height: 60px;
+  background-color: #FC7A57;
+  justify-self: center;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #5E5B52;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #DF9A57;
+}
+
+.sound-container{
+  width: 180px;
+}
+
+.sound-name{
+  background-color: #DF9A57;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  height: 70px;
+  padding-top: 15px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: #5E5B52;
+  box-shadow: 3px 3px 5px #DF9A57;
+}
